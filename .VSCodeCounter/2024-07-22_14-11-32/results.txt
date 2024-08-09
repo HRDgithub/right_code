@@ -1,0 +1,81 @@
+Date : 2024-07-22 14:11:32
+Directory : f:\RightCode\right_code_app\lib
+Total : 35 files,  3066 codes, 95 comments, 275 blanks, all 3436 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Dart     |         35 |      3,066 |         95 |        275 |      3,436 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                  | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                     |         35 |      3,066 |         95 |        275 |      3,436 |
+| . (Files)                                                                                                             |          2 |         41 |          6 |         14 |         61 |
+| module                                                                                                                |         18 |      1,713 |         61 |        160 |      1,934 |
+| module\app                                                                                                            |         18 |      1,713 |         61 |        160 |      1,934 |
+| module\app\main_page                                                                                                  |          5 |        212 |          3 |         20 |        235 |
+| module\app\main_page (Files)                                                                                          |          1 |        103 |          1 |          6 |        110 |
+| module\app\main_page\widgets                                                                                          |          4 |        109 |          2 |         14 |        125 |
+| module\app\refrigerator                                                                                               |         13 |      1,501 |         58 |        140 |      1,699 |
+| module\app\refrigerator\application                                                                                   |          2 |        112 |          3 |         14 |        129 |
+| module\app\refrigerator\data                                                                                          |          1 |        120 |          1 |         17 |        138 |
+| module\app\refrigerator\domain                                                                                        |          6 |        525 |         38 |         70 |        633 |
+| module\app\refrigerator\domain\fridge_category                                                                        |          3 |        155 |         19 |         35 |        209 |
+| module\app\refrigerator\domain\fridge_model                                                                           |          3 |        370 |         19 |         35 |        424 |
+| module\app\refrigerator\presentation                                                                                  |          4 |        744 |         16 |         39 |        799 |
+| module\app\refrigerator\presentation (Files)                                                                          |          2 |        490 |          3 |         15 |        508 |
+| module\app\refrigerator\presentation\pagination                                                                       |          1 |        124 |         13 |         21 |        158 |
+| module\app\refrigerator\presentation\widgets                                                                          |          1 |        130 |          0 |          3 |        133 |
+| supabase                                                                                                              |          1 |          5 |          0 |          1 |          6 |
+| theme                                                                                                                 |          1 |        305 |          6 |         17 |        328 |
+| utils                                                                                                                 |          3 |        112 |          1 |         14 |        127 |
+| widgets                                                                                                               |         10 |        890 |         21 |         69 |        980 |
+| widgets (Files)                                                                                                       |          8 |        704 |         20 |         45 |        769 |
+| widgets\pagination                                                                                                    |          2 |        186 |          1 |         24 |        211 |
++-----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                              | language | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| f:\RightCode\right_code_app\lib\dep_injection.dart                                                                    | Dart     |         13 |          6 |          8 |         27 |
+| f:\RightCode\right_code_app\lib\main.dart                                                                             | Dart     |         28 |          0 |          6 |         34 |
+| f:\RightCode\right_code_app\lib\module\app\main_page\main_page.dart                                                   | Dart     |        103 |          1 |          6 |        110 |
+| f:\RightCode\right_code_app\lib\module\app\main_page\widgets\bottom_nav_item.dart                                     | Dart     |         48 |          2 |          6 |         56 |
+| f:\RightCode\right_code_app\lib\module\app\main_page\widgets\custom_logo_app_bar.dart                                 | Dart     |         20 |          0 |          3 |         23 |
+| f:\RightCode\right_code_app\lib\module\app\main_page\widgets\custom_return_app_bar.dart                               | Dart     |         35 |          0 |          3 |         38 |
+| f:\RightCode\right_code_app\lib\module\app\main_page\widgets\my_logo.dart                                             | Dart     |          6 |          0 |          2 |          8 |
+| f:\RightCode\right_code_app\lib\module\app\refrigerator\application\fridge_controller.dart                            | Dart     |         92 |          2 |         10 |        104 |
+| f:\RightCode\right_code_app\lib\module\app\refrigerator\application\fridge_provider.dart                              | Dart     |         20 |          1 |          4 |         25 |
+| f:\RightCode\right_code_app\lib\module\app\refrigerator\data\refrigerator_repository.dart                             | Dart     |        120 |          1 |         17 |        138 |
+| f:\RightCode\right_code_app\lib\module\app\refrigerator\domain\fridge_category\fridge_category_model.dart             | Dart     |         12 |          0 |          4 |         16 |
+| f:\RightCode\right_code_app\lib\module\app\refrigerator\domain\fridge_category\fridge_category_model.freezed.dart     | Dart     |        130 |         15 |         26 |        171 |
+| f:\RightCode\right_code_app\lib\module\app\refrigerator\domain\fridge_category\fridge_category_model.g.dart           | Dart     |         13 |          4 |          5 |         22 |
+| f:\RightCode\right_code_app\lib\module\app\refrigerator\domain\fridge_model\fridge_model.dart                         | Dart     |         21 |          0 |          4 |         25 |
+| f:\RightCode\right_code_app\lib\module\app\refrigerator\domain\fridge_model\fridge_model.freezed.dart                 | Dart     |        322 |         15 |         26 |        363 |
+| f:\RightCode\right_code_app\lib\module\app\refrigerator\domain\fridge_model\fridge_model.g.dart                       | Dart     |         27 |          4 |          5 |         36 |
+| f:\RightCode\right_code_app\lib\module\app\refrigerator\presentation\add_edit_item_refrigerator_page.dart             | Dart     |        343 |          3 |          9 |        355 |
+| f:\RightCode\right_code_app\lib\module\app\refrigerator\presentation\my_refrigerator_page.dart                        | Dart     |        147 |          0 |          6 |        153 |
+| f:\RightCode\right_code_app\lib\module\app\refrigerator\presentation\pagination\refrigerator_pagination_provider.dart | Dart     |        124 |         13 |         21 |        158 |
+| f:\RightCode\right_code_app\lib\module\app\refrigerator\presentation\widgets\refrigerator_item_widget.dart            | Dart     |        130 |          0 |          3 |        133 |
+| f:\RightCode\right_code_app\lib\supabase\supabase_api.dart                                                            | Dart     |          5 |          0 |          1 |          6 |
+| f:\RightCode\right_code_app\lib\theme\theme.dart                                                                      | Dart     |        305 |          6 |         17 |        328 |
+| f:\RightCode\right_code_app\lib\utils\context_extantions.dart                                                         | Dart     |          5 |          0 |          2 |          7 |
+| f:\RightCode\right_code_app\lib\utils\prints.dart                                                                     | Dart     |         31 |          0 |          7 |         38 |
+| f:\RightCode\right_code_app\lib\utils\supabase_exceptions.dart                                                        | Dart     |         76 |          1 |          5 |         82 |
+| f:\RightCode\right_code_app\lib\widgets\box_button.dart                                                               | Dart     |        163 |          7 |         13 |        183 |
+| f:\RightCode\right_code_app\lib\widgets\custom_chips.dart                                                             | Dart     |         37 |          0 |          3 |         40 |
+| f:\RightCode\right_code_app\lib\widgets\loading_progress.dart                                                         | Dart     |         22 |          0 |          3 |         25 |
+| f:\RightCode\right_code_app\lib\widgets\pagination\base_pagination_list_view.dart                                     | Dart     |         66 |          0 |          5 |         71 |
+| f:\RightCode\right_code_app\lib\widgets\pagination\base_pagination_provier.dart                                       | Dart     |        120 |          1 |         19 |        140 |
+| f:\RightCode\right_code_app\lib\widgets\rounded_date_picker.dart                                                      | Dart     |         25 |          0 |          2 |         27 |
+| f:\RightCode\right_code_app\lib\widgets\show_dialog.dart                                                              | Dart     |        192 |         10 |          8 |        210 |
+| f:\RightCode\right_code_app\lib\widgets\text_field.dart                                                               | Dart     |        168 |          3 |          7 |        178 |
+| f:\RightCode\right_code_app\lib\widgets\text_input_decaration.dart                                                    | Dart     |         39 |          0 |          2 |         41 |
+| f:\RightCode\right_code_app\lib\widgets\text_widget.dart                                                              | Dart     |         58 |          0 |          7 |         65 |
+| Total                                                                                                                 |          |      3,066 |         95 |        275 |      3,436 |
++-----------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
