@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:right_code_app/theme/theme.dart';
+import 'package:right_code_app/widgets/text_widget.dart';
 
 class BottomNavItem extends StatelessWidget {
   const BottomNavItem({
     super.key,
     this.child,
-    this.dimension = 32,
+    this.dimension = 30,
     required this.isActive,
     required this.title,
     required this.iconPath,
@@ -45,15 +46,15 @@ class BottomNavItem extends StatelessWidget {
 
           ///
           Flexible(
-            child: Text(
+            child: TextWidget(
               title,
-              style: TextStyle(
-                color: isActive
-                    ? AppTheme.whiteText
-                    : AppTheme.darkText.withOpacity(0.7),
-                fontWeight: isActive ? FontWeight.w500 : FontWeight.w400,
-                fontSize: 14,
-              ),
+              textColor: isActive
+                  ? AppTheme.whiteText
+                  : AppTheme.darkText.withOpacity(0.7),
+              fontWeight: isActive ? FontWeight.w500 : FontWeight.w400,
+              fontSize: 14,
+              maxLines: 2,
+              textAlign: TextAlign.center,
             ),
           )
         ],

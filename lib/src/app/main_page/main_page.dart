@@ -95,7 +95,7 @@ class MainPage extends HookWidget {
               return BottomNavItem(
                 isActive: isActive,
                 iconPath: "assets/imgs/refrigerator.png",
-                title: 'Refrigerator',
+                title: 'Fridge',
               );
             case 1:
               return BottomNavItem(
@@ -107,7 +107,7 @@ class MainPage extends HookWidget {
               return BottomNavItem(
                 isActive: isActive,
                 iconPath: "assets/imgs/tips.png",
-                title: 'Storage Tips',
+                title: 'Tips',
               );
             case 3:
               return BottomNavItem(
